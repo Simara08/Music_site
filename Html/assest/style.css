@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+.navbar{
+    background-color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+.navbar>a{
+    margin: 15px;
+    position: relative;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar>a:hover{
+    color: black;
+background-color: white;    
+}
+.image{
+    background-image: url(./Foto/chicago.jpg);
+    width: 100%;
+    min-height: 600px;
+    color: white;
+}
+.chicago>p{
+    
+    position: relative;
+    top: 500px;
+}
+.icon{
+    position: relative;
+    right: -750px;
+    top: 10px;
+    color: white;
+}
+.icon:hover{
+background-color: red;
+}
+.white{
+    width: 100%;
+    max-width: 2000px;
+    margin-top: 46px;
+    background-color: white;
+}
+.write{
+    position: relative;
+    right: -250px;
+    top: 40px;
+    text-align:justify; 
+}
+.foto>div{
+margin: 50px;
+position: relative;
+right: -270px;
+top: -220px;
+}
+.foto>div>p{
+position: relative;
+top: -20px;
+}
+#Tour{
+    background-color:black;
+    text-align: center;
+    padding-bottom:100px;
+}
+
+.header{
+    padding-top:80px;
+    color:white;
+    font-size:30px;
+}
+
+.header h1{
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.header p{
+    padding-top:20px;
+    color:#919191;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.ticket-status{
+    background-color:white;
+    margin-top:40px;
+    margin-left:20%;
+    text-align:left;
+    width:60%;
+}
+
+.months{
+    padding-left:20px;
+    padding-top:10px;
+    color:#757575;
+    padding-bottom: 10px;
+    border-bottom:1px solid #DDDDDD;
+}
+
+.months:nth-child(3){
+    padding-bottom:10px;
+}
+
+.months button{
+    margin-left:20px;
+    color:white;
+    background-color:#F44336;
+    border:1px solid #F44336;
+    font-family:Lato;
+    text-align: center;
+    font-size:15px;
+    width:70px;
+    height:22px;
+}
+
+.months:nth-child(3) button{
+    border-radius:50%;
+    width:24.7px;
+    border:1px solid black;
+    background-color:black;
+    margin-left:82%;
+}
+
+.ticket-cards{
+    display:flex;
+    margin-top:40px;
+    text-align: left;
+    margin-left:19%;
+}
+
+.ticket-cards img{
+    width:275px;
+    height:183.98;
+    padding-left: 12px;
+}
+
+.city-info{
+    background-color: white;
+    margin-left:12px;
+    margin-top:-4px;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom:15px;
+}
+
+#date{
+    color:#919191;
+    margin-top: 10px;
+    font-weight:400;
+}
+
+.city-info p{
+    margin-top:18px;
+    width:240px;
+}
+
+.city-info button{
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    width:108px;
+    height:39px;
+    margin-top:18px;
+    font-size: 15px;
+}
+#Contact{
+    text-align: center;
+    padding-bottom:100px;
+}
+
+#Contact .header h1{
+    color:black;
+    font-size:30px;
+    font-weight:400;
+}
+
+#Contact .header p{
+    color:#888585;
+    font-size:15px;
+    font-weight:400;
+}
+
+
+.info-form{
+    display:flex;
+    margin-top:50px;
+    margin-left:20%;
+}
+
+.info-item{
+    display:flex;
+    padding-top:5px;
+}
+
+.info-item i{
+    position:absolute;
+    margin-top:1.5px;
+}
+
+.info-item p{
+    font-size: 18px;
+    margin-left:40px;
+    font-family:'Lato',sans-serif;
+}
+
+.form{
+    margin-left:18%;
+}
+
+.form-item input{
+    width:184px;
+    height:35px;
+    padding:8px;
+    font-size:15px;
+    border:1px solid #CCCCCC;
+}
+
+.form span:nth-child(2){
+    margin-left: 10px;
+}
+
+.form-item:nth-child(3) input{
+    margin-top:5px;
+    width:400px;
+
+}
+
+.form-item:nth-child(4) button{
+    width:72px;
+    height:39px;
+    font-size:15px;
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    margin-top:10px;
+    margin-left:335px;
+}
+#image{
+    width:100%;
+    background-size: cover;
+}
+#media{
+    margin-top:60px;
+    padding-bottom:80px;
+}
+
+.media-item{
+    padding-left:1px;
+    font-size:25px;
+    display:inline;
+    position:relative;
+    top:50%;
+    left:43%;
+    transform:translate(-50%,-50%);
+    color:grey;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    margin-left:-42px;
+    color:#A0A0A0;
+}
+
+.text a{
+    margin-left:5px;
+    color:#A0A0A0;
+}
