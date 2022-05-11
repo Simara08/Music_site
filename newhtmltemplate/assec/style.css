@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.all1{
+    width: calc(100%);
+min-height: 700px;
+}
+.all1>img{
+width: calc(100%);
+min-height: 700px;
+}
+.all1>.summary{
+    width: 400px;
+    height: 130px;
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+}
+.summary>h1{
+    font-size: 42px;
+}
+.item{
+    margin-top: 30px;
+}
+.item>button{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 1s;
+}
+.item>button:hover{
+    opacity: 0.5;
+}
+.all2>.summary{
+    text-align: center;
+}
+.all2>.image{
+    display: flex;
+}
+.all2>.item{
+    
+}
