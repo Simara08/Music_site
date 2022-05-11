@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    row-gap: 30px;
+}
+nav{
+    background-color: white;
+    z-index: 1;
+    width:calc(100%) ;
+    position: fixed;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    transition: 1s;
+}
+nav .sum{
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.tix>h2{
+    position: relative;
+    left: 50px;
+}
+a>i{
+    margin: 10px;
+}
+main{
+    display: grid;
+    row-gap: 90px;
+}
+.all1{
+    width: calc(100%);
+min-height: 700px;
+}
+.all1>img{
+width: calc(100%);
+min-height: 700px;
+}
+.all1>.summary{
+    width: 400px;
+    height: 130px;
+    position: relative;
+    bottom: 500px;
+    left: 80px;
+}
+.summary>h1{
+    font-size: 42px;
+}
+.item{
+    margin-top: 30px;
+}
+button{
+    color: white;
+    background-color: rgb(35, 35, 35);
+    height: 50px;
+    width: 160px;
+    border-radius: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    opacity: 0.5;
+}
+.all2{
+    display: grid;
+    row-gap:20px ;
+}
+.all2>.summary{
+    text-align: center;
+    display: grid;
+    row-gap: 30px;
+}
+.all2>.image{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 42px;
+}
+.all2 .item{
+    margin: 10px;
+}
+.item>.first{
+    width:380px;
+    height: 487px;
+}
+.all2 button{
+    position: relative;
+    left: 100px;
+    bottom: 15px;
+}
+.all3{
+    display: flex;
+}
+.all3 img{
+    width:500px;
+    height: 600px;
+    position: relative;
+    left: 170px;
+}
+.all3>.summary{
+    max-width: 550px;
+    position: relative;
+    left: 50px;
+}
+.all3 .item{
+    margin-top: 50px;
+}
+.all4>.image{
+    display: flex;
+}
+.all4{
+    display: grid;
+    row-gap: 30px;
+    text-align: center;
+}
+.all4 img{
+    width:280px;
+    height: 487px;
+}
+.all4 .item{
+    position: relative;
+    left: 30px;
+    margin: 10px;
+}
+.all5{
+    background-color:  rgb(35, 35, 35);
+    color: white;
+    width: calc(100%);
+    min-height: 400px;
+}
+.info{
+    display: flex;
+}
+.info>.col{
+    margin: 30px;
+    position: relative;
+    top: 30px;
+}
+form{
+    position: relative;
+    left: 200px;
+    display: grid;
+    row-gap: 30px;
+}
+h4{
+    font-size: 25px;
+}
+label>input{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(167, 166, 166);
+}
+div>input{
+    height: 50px;
+    width: 160px;
+    border-radius: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;   
+}
+div>input:hover{
+    opacity: 0.7;
+}
+.icon{
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 65px;
+    cursor: pointer;
+}
+.icon>.item{
+    margin: 8px;
+}
+.icon>p{
+    position: relative;
+    left: 730px;
+}
+
+
