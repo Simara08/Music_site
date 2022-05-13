@@ -1,0 +1,100 @@
+$primary-font-size:40px;
+$primary-font-family: 'Montserrat', sans-serif;
+$primary-color:rgb(22, 5, 5);
+#mezun{
+    .graduate-info{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $primary-font-family;
+    .graduate-info-comment>p{
+        font-size: $primary-font-size;
+        margin: 0 auto;
+        span{
+                font-weight:800;
+        }
+    }
+    .graduate-info-comment_item-com{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .graduate-info-comment{
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    flex-direction: column;
+
+        
+        
+    }
+    .graduate-info-comment_item-image{
+        
+        display: flex;
+        justify-content: center;
+        .user>p{
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+        .image{
+            img{
+            border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    
+   
+  }
+}
+#partnyor{
+    padding: 100px;
+    margin-top: 100px;
+    
+    font-family: $primary-font-family;
+    .akademik-partnyor{
+        display: flex;
+        justify-content: center;
+    flex-direction: column;
+    .akademik-partnyor-info{
+        text-align: center;
+        
+        display: flex;
+        justify-content: center;
+    flex-direction: column;
+    }
+        .col1 p{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: $primary-font-size;
+        }
+        .col1 h3{
+            
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: $primary-font-size;
+        }
+        .col2{
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    .akademik-partnyor-icon{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-flow:row wrap;
+        gap: 50px;
+        .icon_item>a>img{
+            gap: 15px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 150px;
+            height: 50px;
+        }
+    }
+    }
+    
